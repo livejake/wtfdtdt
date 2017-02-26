@@ -55,7 +55,6 @@ const developmentConfig = {
 }
 
 const productionConfig = {
-  devtool: 'cheap-module-source-map',
   plugins: [HTMLWebpackPluginConfig, productionPlugin]
 }
 
